@@ -1,0 +1,244 @@
+{
+	"title": {
+		"main": "스트레스 설문이 도착했습니다",
+		"alt": "스트레스 설문이 도착했습니다"
+	},
+	"message": {
+		"main": "설문에 15분 내에 응답해주세요",
+		"alt": "설문에 15분 내에 응답해주세요"
+	},
+	"instruction": {
+		"main": "지난 설문 이후부터 이번 설문까지를 고려하여 응답해주세요.",
+		"alt": "지난 설문 이후부터 이번 설문까지를 고려하여 응답해주세요."
+	},
+	"question": [
+		{
+			"title": {
+				"main": "1. 지금으로부터 지난 2시간 동안의 나의 전반적인 스트레스 상태를 점수로 표현하세요.",
+				"alt": ""
+			},
+			"isOtherShown": false,
+			"option": {
+				"type": "LINEAR_SCALE",
+				"min": 1.0,
+				"max":  5.0,
+				"step": 1.0,
+				"defaultValue": 3.0,
+				"minLabel": "전혀 스트레스 받지 않았다.",
+				"maxLabel": "매우 스트레스 받았다."
+			}
+		},
+        {
+			"title": {
+				"main": "1.1. (4,5 를 선택하신 경우) 구체적으로 어떻게 하였습니까?",
+				"alt": ""
+			},
+            "isOthersShown": false,
+            "option": {
+                "type": "FREE_TEXT",
+                "isSingleLine": false
+            }
+		},
+		{
+			"title": {
+				"main": "2. 나는 학업과 관련한 어려움이 있었다. (예시: 과제량, 성적, 교과목의 난이도, 중요한 시험 등)",
+				"alt": ""
+			},
+			"isOtherShown": false,
+			"option": {
+				"type": "LINEAR_SCALE",
+				"min": 1.0,
+				"max":  5.0,
+				"step": 1.0,
+				"defaultValue": 3.0,
+				"minLabel": "전혀 아니다.",
+				"maxLabel": "매우 그렇다."
+			}
+		},
+        {
+			"title": {
+				"main": "2.1. (4,5 를 선택하신 경우) 구체적으로 어떻게 하였습니까?",
+				"alt": ""
+			},
+            "isOthersShown": false,
+            "option": {
+                "type": "FREE_TEXT",
+                "isSingleLine": false
+            }
+		},
+        {
+			"title": {
+				"main": "3. 나는 건강과 관련한 어려움이 있었다. (예시: 피곤함, 두통, 소화불량, 부상 등)",
+				"alt": ""
+			},
+			"isOtherShown": false,
+			"option": {
+				"type": "LINEAR_SCALE",
+				"min": 1.0,
+				"max":  5.0,
+				"step": 1.0,
+				"defaultValue": 3.0,
+				"minLabel": "전혀 아니다.",
+				"maxLabel": "매우 그렇다."
+			}
+		},
+        {
+			"title": {
+				"main": "3.1. (4,5 를 선택하신 경우) 구체적으로 어떻게 하였습니까?",
+				"alt": ""
+			},
+            "isOthersShown": false,
+            "option": {
+                "type": "FREE_TEXT",
+                "isSingleLine": false
+            }
+		},
+        {
+			"title": {
+				"main": "4. 나는 타인과의 관계에서 어려움이 있었다. (예시: 가족/친구/룸메이트/연인/교수와의 갈등, 의견 충돌, 불편한 관계 등)",
+				"alt": ""
+			},
+			"isOtherShown": false,
+			"option": {
+				"type": "LINEAR_SCALE",
+				"min": 1.0,
+				"max":  5.0,
+				"step": 1.0,
+				"defaultValue": 3.0,
+				"minLabel": "전혀 아니다.",
+				"maxLabel": "매우 그렇다."
+			}
+		},
+        {
+			"title": {
+				"main": "4.1. (4,5 를 선택하신 경우) 구체적으로 어떻게 하였습니까?",
+				"alt": ""
+			},
+            "isOthersShown": false,
+            "option": {
+                "type": "FREE_TEXT",
+                "isSingleLine": false
+            }
+		},
+        {
+			"title": {
+				"main": "5. 나는 경제적인 요소로 어려움이 있었다. (예시: 용돈 부족, 경제 사정 어려움, 정기 결제 등)",
+				"alt": ""
+			},
+			"isOtherShown": false,
+			"option": {
+				"type": "LINEAR_SCALE",
+				"min": 1.0,
+				"max":  5.0,
+				"step": 1.0,
+				"defaultValue": 3.0,
+				"minLabel": "전혀 아니다.",
+				"maxLabel": "매우 그렇다."
+			}
+		},
+        {
+			"title": {
+				"main": "5.1. (4,5 를 선택하신 경우) 구체적으로 어떻게 하였습니까?",
+				"alt": ""
+			},
+            "isOthersShown": false,
+            "option": {
+                "type": "FREE_TEXT",
+                "isSingleLine": false
+            }
+		},
+        {
+			"title": {
+				"main": "6. 나는 일상적인(사소한) 짜증 유발 요소를 경험했다. (예시: 수업 지각, 불편한 교통, 일시적인 소음 등)",
+				"alt": ""
+			},
+			"isOtherShown": false,
+			"option": {
+				"type": "LINEAR_SCALE",
+				"min": 1.0,
+				"max":  5.0,
+				"step": 1.0,
+				"defaultValue": 3.0,
+				"minLabel": "전혀 아니다.",
+				"maxLabel": "매우 그렇다."
+			}
+		},
+        {
+			"title": {
+				"main": "6.1. (4,5 를 선택하신 경우) 구체적으로 어떻게 하였습니까?",
+				"alt": ""
+			},
+            "isOthersShown": false,
+            "option": {
+                "type": "FREE_TEXT",
+                "isSingleLine": false
+            }
+		},
+        {
+			"title": {
+				"main": "7. 스트레스 관련 요소들을 극복하기 위해 자신이 시도한 방법을 선택하세요 (복수 응답 가능)",
+				"alt": ""
+			},
+            "isOthersShown": false,
+            "option": {
+                "type": "CHECK_BOX",
+                "isVertical": true,
+                "items": [
+                    "문제 해결(예시: 문제의 원인을 제거함,수업을 드랍함.)",
+                    "사회적 지지(예시: 주변인에게 털어놓음)",
+                    "무시, 회피(예시: 의도적으로 더 생각하지 않음)",
+                    "기타",
+                    "해당 사항 없음(예시: 아무것도 하지 않음)"
+                ]
+            }
+		},
+        {
+			"title": {
+				"main": "7.1. 구체적으로 어떻게 하였습니까?",
+				"alt": ""
+			},
+            "isOthersShown": false,
+            "option": {
+                "type": "FREE_TEXT",
+                "isSingleLine": false
+            }
+		}       
+	],
+	"timeout": {
+		"amount": 15,
+		"unit": "MINUTE"
+	},
+	"timeoutAction": "DISABLED",
+	"timeFrom": {
+		"amount": -1,
+		"unit": "HOUR"
+	},
+	"timeTo": {
+		"amount": -1,
+		"unit": "HOUR"
+	},
+	"interDaySchedule": {
+		"type": "DAILY"
+	},
+	"intraDaySchedule": {
+		"type": "INTERVAL",
+		"timeFrom": {
+			"hour": 10,
+			"minute": 0,
+			"second": 1
+		},
+		"timeTo": {
+			"hour": 19,
+			"minute": 59,
+			"second": 59
+		},
+		"intervalDefault": {
+			"amount": 120,
+			"unit": "MINUTE"
+		},
+		"intervalFlex": {
+			"amount": 30,
+			"unit": "MINUTE"
+		}
+	}
+}
