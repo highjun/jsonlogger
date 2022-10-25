@@ -229,16 +229,16 @@
 			"second": 1
 		},
 		"timeTo": {
-			"hour": 19,
+			"hour": 23,
 			"minute": 59,
 			"second": 59
 		},
 		"intervalDefault": {
-			"amount": 120,
+			"amount": 2,
 			"unit": "MINUTE"
 		},
 		"intervalFlex": {
-			"amount": 30,
+			"amount": 0,
 			"unit": "MINUTE"
 		}
 	}
