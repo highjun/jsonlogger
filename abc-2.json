@@ -183,7 +183,7 @@
 		},
         {
 			"title": {
-				"main": "7.1. 구체적인 이유는 무엇입니까?",
+				"main": "7.1. 구체적으로 어떻게 하셨습니까?",
 				"alt": ""
 			},
             "isOthersShown": false,
@@ -191,8 +191,20 @@
                 "type": "FREE_TEXT",
                 "isSingleLine": false
             }
-		}       
+		},
+	{
+			"title": {
+				"main": "8. 무엇을 하고 계셨습니까?",
+				"alt": ""
+			},
+            "isOthersShown": false,
+            "option": {
+                "type": "FREE_TEXT",
+                "isSingleLine": false
+            }
+		}
 	],
+	
 	"timeout": {
 		"amount": 15,
 		"unit": "MINUTE"
