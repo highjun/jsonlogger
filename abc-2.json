@@ -234,11 +234,11 @@
 			"second": 59
 		},
 		"intervalDefault": {
-			"amount": 1,
+			"amount": 120,
 			"unit": "MINUTE"
 		},
 		"intervalFlex": {
-			"amount": 0,
+			"amount": 30,
 			"unit": "MINUTE"
 		}
 	}
