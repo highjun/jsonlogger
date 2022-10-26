@@ -238,7 +238,7 @@
 			"unit": "MINUTE"
 		},
 		"intervalFlex": {
-			"amount": 0,
+			"amount": 1,
 			"unit": "MINUTE"
 		}
 	}
